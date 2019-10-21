@@ -1,3 +1,14 @@
+.subtitles {
+  color: #e25822;
+  font-size: 2rem;
+  margin: 3%;
+  font-family: 'Righteous', cursive;
+}
+.context {
+  font-size: 1rem;
+  color: black;
+  font-family: 'Domine', serif;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -150,6 +161,8 @@ header div {
 header div h1 {
   font-size: 3rem;
   display: flex;
+  color: #b22222;
+  font-family: 'Lobster', 'cursive';
 }
 header nav {
   display: flex;
@@ -160,18 +173,105 @@ header nav {
 header nav a {
   font-size: 1.2rem;
   text-decoration: none;
+  color: #e25822;
+  font-family: 'Domine', serif;
 }
 .pitch {
   text-align: center;
   margin: 5%;
 }
-.pitch h2 {
+.pitch h2 a {
+  color: #e25822;
   font-size: 2rem;
+  margin: 3%;
+  font-family: 'Righteous', cursive;
+  text-decoration: none;
 }
 .pitch p {
   font-size: 1rem;
+  color: black;
+  font-family: 'Domine', serif;
 }
 .pitch img {
   margin: 3% 0;
   width: 100%;
+}
+.easy {
+  text-align: center;
+  margin: 5%;
+}
+.easy h2 {
+  color: #e25822;
+  font-size: 2rem;
+  margin: 3%;
+  font-family: 'Righteous', cursive;
+}
+.easy p {
+  font-size: 1rem;
+  color: black;
+  font-family: 'Domine', serif;
+}
+.easy .imgs {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  width: 90%;
+}
+.easy .imgs img {
+  margin: 3%;
+  width: 40%;
+}
+.share {
+  text-align: center;
+  margin: 5%;
+}
+.share h2 {
+  color: #e25822;
+  font-size: 2rem;
+  margin: 3%;
+  font-family: 'Righteous', cursive;
+}
+.share p {
+  font-size: 1rem;
+  color: black;
+  font-family: 'Domine', serif;
+}
+.teamHeader {
+  text-align: center;
+  margin: 5%;
+}
+.teamHeader h2 {
+  text-align: start;
+  color: #e25822;
+  font-size: 2rem;
+  margin: 3%;
+  font-family: 'Righteous', cursive;
+}
+.teamHeader p {
+  font-size: 1rem;
+  color: black;
+  font-family: 'Domine', serif;
+}
+.teamMember {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  border: solid #b22222 1rem;
+  border-radius: 25px;
+  padding: 2%;
+  text-align: center;
+}
+.teamMember h2 {
+  color: #e25822;
+  font-size: 2rem;
+  margin: 3%;
+  font-family: 'Righteous', cursive;
+}
+.teamMember p {
+  margin: 2%;
+  font-size: 1rem;
+  color: black;
+  font-family: 'Domine', serif;
+  color: #e25822;
 }
