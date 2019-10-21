@@ -257,6 +257,7 @@ header nav a {
   flex-direction: column;
   justify-content: center;
   width: 80%;
+  margin: 3% auto;
   border: solid #b22222 1rem;
   border-radius: 25px;
   padding: 2%;
