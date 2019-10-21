@@ -144,6 +144,12 @@ body {
   font-size: 62.5%;
   background: #e5d8bf;
 }
+@media (min-width: 1000px) {
+  body {
+    width: 100%;
+    max-width: 1000px;
+  }
+}
 header {
   display: flex;
   flex-direction: column;
@@ -215,11 +221,12 @@ header nav a {
   display: flex;
   flex-flow: row;
   justify-content: space-evenly;
-  width: 90%;
+  width: 100%;
 }
 .easy .imgs img {
   margin: 3%;
   width: 40%;
+  height: auto;
 }
 .share {
   text-align: center;
@@ -275,4 +282,20 @@ header nav a {
   color: black;
   font-family: 'Domine', serif;
   color: #e25822;
+}
+@media (min-width: 1000px) {
+  .teamMember {
+    display: flex;
+    width: 35%;
+  }
+  .teamMember img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 1000px) {
+  .theTeam {
+    display: flex;
+    flex-flow: wrap row;
+  }
 }
