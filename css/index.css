@@ -5,7 +5,7 @@
   font-family: 'Righteous', cursive;
 }
 .context {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: black;
   font-family: 'Domine', serif;
 }
@@ -194,7 +194,7 @@ header nav a {
   text-decoration: none;
 }
 .pitch p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: black;
   font-family: 'Domine', serif;
 }
@@ -213,18 +213,18 @@ header nav a {
   font-family: 'Righteous', cursive;
 }
 .easy p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: black;
   font-family: 'Domine', serif;
 }
-.easy .imgs {
+.easy .photos {
   display: flex;
-  flex-flow: row;
+  flex-flow: nowrap row;
   justify-content: space-evenly;
   width: 100%;
 }
-.easy .imgs img {
-  margin: 3%;
+.easy .photos img {
+  margin: 2%;
   width: 40%;
   height: auto;
 }
@@ -239,7 +239,7 @@ header nav a {
   font-family: 'Righteous', cursive;
 }
 .share p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: black;
   font-family: 'Domine', serif;
 }
@@ -255,7 +255,7 @@ header nav a {
   font-family: 'Righteous', cursive;
 }
 .teamHeader p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: black;
   font-family: 'Domine', serif;
 }
@@ -278,7 +278,7 @@ header nav a {
 }
 .teamMember p {
   margin: 2%;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: black;
   font-family: 'Domine', serif;
   color: #e25822;
@@ -291,6 +291,19 @@ header nav a {
   .teamMember img {
     width: 100%;
     height: auto;
+  }
+}
+img {
+  animation: slide 3s 1;
+}
+@keyframes slide {
+  from {
+    margin-left: 200%;
+    width: 50%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
 }
 @media (min-width: 1000px) {
