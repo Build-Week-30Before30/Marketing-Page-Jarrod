@@ -182,6 +182,20 @@ header nav a {
   color: #e25822;
   font-family: 'Domine', serif;
 }
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 2% auto;
+  padding: 2% 0;
+  border-top: solid 2px #94aa2a;
+}
+footer nav a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #e25822;
+  font-family: 'Domine', serif;
+}
 .pitch {
   text-align: center;
   margin: 5%;
