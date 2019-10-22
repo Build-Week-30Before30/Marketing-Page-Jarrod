@@ -168,7 +168,7 @@ header div h1 {
   font-size: 3rem;
   display: flex;
   color: #b22222;
-  font-family: 'Lobster', 'cursive';
+  font-family: 'Righteous', cursive;
 }
 header nav {
   display: flex;
@@ -216,6 +216,11 @@ header nav a {
   font-size: 1.5rem;
   color: black;
   font-family: 'Domine', serif;
+}
+.easy p a {
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+  color: #b22222;
 }
 .easy .photos {
   display: flex;
