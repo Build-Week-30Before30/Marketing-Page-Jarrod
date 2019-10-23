@@ -345,3 +345,16 @@ footer nav a {
     flex-flow: wrap row;
   }
 }
+img {
+  animation: slide 3s 1;
+}
+@keyframes slide {
+  from {
+    margin-left: 200%;
+    width: 50%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
